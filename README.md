@@ -1,10 +1,6 @@
 # defcon-25-workshop
 Windows Post-Exploitation / Malware Forward Engineering
 
-### Notes
-
-All example code has been stripped down to barebones functionality for simplicity and demonstration purposes. As such, there may not be appropriate error checking.
-
 ### Catalog
 
 1. asynclog - basic keylogger using GetAsyncKeyState()
@@ -29,6 +25,10 @@ All example code has been stripped down to barebones functionality for simplicit
 20. offsetfix - converting static analysis offsets with ASLR
 21. rawhook - simple example showing function prologue hooking
 22. wmiquery - shows how to look up AV using WMI
+
+### Notes
+
+All example code has been stripped down to barebones functionality for simplicity and demonstration purposes. As such, there may not be appropriate error checking.
 
 ### Disclaimer
 Code samples are provided for educational purposes. Adequate defenses can only be built by researching attack techniques available to malicious actors. Using this code against target systems without prior permission is illegal in most jurisdictions. The authors are not liable for any damages from misuse of this information or code.
